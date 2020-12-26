@@ -1,0 +1,20 @@
+.controlsContent {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.controlsContent > .hostInput {
+  flex-grow: 0;
+  height: 72px;
+}
+
+.controlsContent > .routesList {
+  flex-grow: 1;
+  height: 0;
+}
+
+.errorPopupContent {
+  text-align: center;
+  padding: 24px 48px;
+}

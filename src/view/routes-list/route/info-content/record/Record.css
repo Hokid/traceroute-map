@@ -1,0 +1,14 @@
+.root {}
+
+.root > p {
+  padding: 0;
+  margin: 6px 0 0 0;
+}
+
+.root > h6 {
+  margin: 0;
+}
+
+.root + .root {
+  margin-top: 24px;
+}

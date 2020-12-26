@@ -1,0 +1,63 @@
+.root {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  padding: 12px 18px 12px 18px;
+  border: 1px solid #222222;
+  border-radius: 3px;
+}
+
+.root.loading {
+  overflow: hidden;
+}
+
+.root > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.root > li {
+  line-height: 1;
+}
+
+.root > li + li {
+  margin-top: 6px;
+}
+
+.root > li > img {
+  display: inline-block;
+  height: 14px;
+  margin-right: 12px;
+}
+
+.loaderContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(43, 43, 43, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.empty > div > img {
+  display: block;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.empty > div > p {
+  color: #8F8F8C;
+  text-transform: uppercase;
+}

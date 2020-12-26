@@ -1,0 +1,33 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~normalize.css/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import "~leaflet/dist/leaflet.css";
+@import "~leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css";
+@import "~react-leaflet-markercluster/dist/styles.min.css";
+@import "~reactjs-popup/dist/index.css";
+
+html {
+  color: #F7F7F7;
+  background-color: #3E3E3E;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.popup-content {
+  margin: auto;
+  background: #3E3E3E;
+  border-color: #222222;
+  width: 50%;
+  padding: 5px;
+}
+.popup-arrow {
+  color: #3E3E3E;
+  stroke: #222222;
+}
