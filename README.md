@@ -2,7 +2,7 @@
 
 Simple application to show trace result to destination host on the world map.
 
-> This application created for fun and not indented to be a network tools or something like that.
+> This application created for fun and not indented to be a network tool or something like that.
 
 <img src="screenshot0.png" alt="Preview" />
 
